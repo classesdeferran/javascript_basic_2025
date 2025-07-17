@@ -10,7 +10,7 @@
 
 let diaSemana = prompt("¿Qué día de la semana es?")
 
-if (diaSemana == "lunes") {
+if (diaSemana == "lunes" || diaSemana == "Lunes") {
     alert("toca comer pizza");
 } else if (diaSemana == "martes") {
     alert("toca comer ensalada");
@@ -28,4 +28,31 @@ if (diaSemana == "lunes") {
     alert("día de la semana incorrecto");
 }
 
+
+switch (diaSemana) {
+    case "lunes":
+        console.log("toca comer pizza");
+        break
+    case "martes":
+        console.log("toca comer ensalada");
+        break
+    case "miercoles":
+        console.log("toca comer pizza");
+        break
+    case "jueves":
+        console.log("toca comer ensalada");
+        break
+    case "viernes":
+        console.log("toca comer ensalada");
+        break
+    case "sabado":
+        console.log("toca comer salmorejo");
+        break
+    case "domingo":
+        console.log("toca comer lentejas");
+        break
+    default :
+        console.log("día de la semana incorrecto");
+    
+}
 
