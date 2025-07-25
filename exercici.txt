@@ -1,0 +1,15 @@
+HAy que crear dos variables
+En la primera el valor debe ser "Son las "
+En la segunda indica la hora actual, por ejemplo 12:59
+Guarda el resultado final en otra variable.
+Y después muestra el resultado con console.log:
+Son las 12:59
+
+Modificar el valor de la segunda variable
+(donde aparece la hora) para indique la hora de 
+este momento
+
+Son las 13:02
+
+
+

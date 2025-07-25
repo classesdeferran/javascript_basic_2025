@@ -1,6 +1,15 @@
 // STRINGS = TEXTOS
 
 let texto = "¡Buenos dias, hoy es 17 de julio!"
+let text1 = 'Soy otro texto'
+let text2 = `Soy otro texto más`
+let cadenaVacia = ""
+
+let nombreUsuario = "Bill"
+let saludoInicial = "Hola " + nombreUsuario
+console.log(saludoInicial);
+let saludoAlternativo = `Hola ${nombreUsuario}`
+
 texto = "Maria"
 let TEXTO = "Paco"
 let tExTo = "Ona"

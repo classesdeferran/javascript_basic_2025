@@ -1,0 +1,4 @@
+1) preguntar al usuario su nombre
+2) preguntar el apellido
+
+Tu email es nombre.apellido@cief.com
